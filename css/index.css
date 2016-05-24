@@ -1,0 +1,216 @@
+			.banner-title{
+				font-size: 45px;
+				font-weight: bold;
+				font-family:'Fugaz One',cursive;
+				}
+			.lorenipsum-1 {
+				padding: 13px;
+			}
+			
+			.lorenipsum img {
+				float: left;
+			}
+			
+			.lorenipsum h3 {
+				color: white;
+				position: relative;
+				left: 50px;
+			}
+			
+			.topgames {
+				margin-top: 30px;
+				color: #FFFFFF;
+			}
+			
+			.blog {
+				color: #FFFFFF;
+			}
+			
+			#fangda:hover div {
+				transform: scale(1.2);
+				transition: all 0.5s linear;
+			}
+			
+			#fangda {
+				margin: 0px;
+				padding: 0px;
+				overflow: hidden;
+			}
+			
+					@media (min-width:1px ) and (max-width:999px) {
+				.tupiankuang-xiao:hover #pi-1{
+				opacity: 1;
+				transform: translateX(150%) translateY(120%);
+				transition: all 0.3s linear;
+			}
+			.tupiankuang-xiao:hover #pi-2{
+				opacity: 1;
+				transform: translateX(-160%) translateY(115%);
+				transition: all 0.3s linear;
+			}
+			.tupiankuang-xiao:hover #pi-3{
+				opacity: 1;
+				transform: translateX(140%) translateY(-120%);
+				transition: all 0.3s linear;
+			}
+			.tupiankuang-xiao:hover #pi-4{
+				opacity: 1;
+				transform: translateX(-150%) translateY(-130%);
+				transition: all 0.3s linear;
+			}
+			.tupiankuang-xiao:hover #playgames {
+				opacity: 0;
+				transition: all 0.3s linear;
+			}
+			
+			.tupiankuang-xiao {
+				position: relative;
+			}
+			
+			.tupiankuang-xiao:hover #fangxing {
+				
+				transform: scale(2) rotate(45deg);
+				opacity: 1;
+				transition: all 0.3s linear;
+			}
+			
+			#fangxing {
+				left: 42%;
+				top: 36%;
+				transform: rotate(45deg);
+				border: 1px solid #fff;
+				width: 15.5%;
+				height: 25%;
+				position: absolute;
+				opacity: 0;
+				z-index: 11;
+			}
+			#playgames{
+				position: absolute;
+				left: 25%;
+				top: 44%;
+				color: #FFF;
+				opacity: 1;
+				font-size: 20px;
+				z-index: 11;
+			}
+			#pi-1{
+				z-index: 11;
+				position: absolute; left: 50%;top: 50%;opacity: 0;
+			}
+			#pi-2{
+				z-index: 11;
+				position: absolute; right: 50%;top: 50%;opacity: 0;
+			}
+			#pi-3{
+				z-index: 11;
+				position: absolute; left: 50%;bottom: 50%;opacity: 0;
+			}
+			#pi-4{
+				z-index: 11;
+				position: absolute; right: 50%;bottom: 50%;opacity: 0;
+			}
+			#pi-1:hover{
+				cursor: pointer;
+			}	
+			#pi-2:hover{
+				cursor: pointer;
+			}		
+			#pi-3:hover{
+				cursor: pointer;
+			}		
+			#pi-4:hover{
+				cursor: pointer;
+			}				
+
+		}
+		@media only screen and (min-width: 1000px) and (max-width: 2000px) {
+			.tupiankuang-xiao:hover #pi-1{
+				opacity: 1;
+				transform: translateX(300%) translateY(240%);
+				transition: all 0.3s linear;
+			}
+			.tupiankuang-xiao:hover #pi-2{
+				opacity: 1;
+				transform: translateX(-320%) translateY(230%);
+				transition: all 0.3s linear;
+			}
+			.tupiankuang-xiao:hover #pi-3{
+				opacity: 1;
+				transform: translateX(280%) translateY(-240%);
+				transition: all 0.3s linear;
+			}
+			.tupiankuang-xiao:hover #pi-4{
+				opacity: 1;
+				transform: translateX(-300%) translateY(-260%);
+				transition: all 0.3s linear;
+			}
+			.tupiankuang-xiao:hover #playgames {
+				opacity: 0;
+				transition: all 0.3s linear;
+			}
+			
+			.tupiankuang-xiao {
+				position: relative;
+			}
+			
+			.tupiankuang-xiao:hover #fangxing {
+				
+				transform: scale(2) rotate(45deg);
+				opacity: 1;
+				transition: all 0.3s linear;
+			}
+			
+			#fangxing {
+				left: 42%;
+				top: 36%;
+				transform: rotate(45deg);
+				border: 1px solid #fff;
+				width: 15.5%;
+				height: 25%;
+				position: absolute;
+				opacity: 0;
+				z-index: 11;
+			}
+			#playgames{
+				position: absolute;
+				left: 36%;
+				top: 44%;
+				color: #FFF;
+				opacity: 1;
+				font-size: 20px;
+				z-index: 11;
+			}
+			#pi-1{
+				z-index: 11;
+				position: absolute; left: 26%;top: 10%;opacity: 0;
+			}
+			#pi-2{
+				z-index: 11;
+				position: absolute; right: 25%;top: 10%;opacity: 0;
+			}
+			#pi-3{
+				z-index: 11;
+				position: absolute; left: 26%;bottom: 12%;opacity: 0;
+			}
+			#pi-4{
+				z-index: 11;
+				position: absolute; right: 24%;bottom: 13%;opacity: 0;
+			}
+			#pi-1:hover{
+				cursor: pointer;
+			}	
+			#pi-2:hover{
+				cursor: pointer;
+			}		
+			#pi-3:hover{
+				cursor: pointer;
+			}		
+			#pi-4:hover{
+				cursor: pointer;
+			}	
+			*{
+				padding: 0px;
+				margin: 0px;
+			
+				}	

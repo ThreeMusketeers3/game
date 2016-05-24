@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>公共部分</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/gg.css"/>
+		<!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	</head>
+
+	<body>
+
+		<div class="header">
+			
+			<div class="header-top container">
+  			<div class="header-nav">
+  				<div class="header-logo">
+  					<a href="index.html">
+  						<h1>Jolly<span>Games</span></h1>
+  					</a>
+  				</div>
+  				<div class="clearfix"></div>
+  				<span class="menu"></span>
+  				<div class="header-menu">
+  					<ul>
+  						<li class="active">
+  							<a href="#">Home</a>
+  						</li>
+  						<li>
+  							<a href="#">About</a>
+  						</li>
+  						<li>
+  							<a href="#">Reviews</a>
+  						</li>
+  						<li>
+  							<a href="#">Blog</a>
+  						</li>
+  						<li>
+  							<a href="#">Gallery</a>
+  						</li>
+  						<li>
+  							<a href="#">Contact</a>
+  						</li>
+  						<div class="clearfix"></div>
+  					</ul>
+  				</div>
+  				
+  			</div>
+  		</div>
+
+			<div class="header-bottom"></div>
+		</div>
+
+		<div style="height: 1500px;"></div>
+		<!--中间内容放置-->
+
+		<div class="footer text-center">
+			<div class="container">
+
+				<div class="footer-top">
+					<div class="col-md-6 footer-left">
+						<h3>About Us</h3>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since, Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy
+							text of the printing and typesetting industry</p>
+						<a href="#">Read More</a>
+					</div>
+					<div class="col-md-6 footer-right">
+						<h3>Get In Touch</h3>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since, </p>
+						<div class="bottom-search">
+							<input type="text" class="text" value="Enter email..." onfocus="this.value = '';" onblur="if (this.value == 'Enter email...') {this.value = 'Enter email...';}">
+							<input type="submit" value="SUBSCRIBE" class="submit">
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+
+				<div class="footer-bottom">
+					<p>Copyright &copy; 2015.Company name All rights reserved.More Templates </p>
+				</div>
+			</div>
+
+			<a href="#top" id="goTop"> </a>
+			<!--返回顶部-->
+
+		</div>
+
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+		<script>
+			$(function() {
+				$(function() {
+					$(window).scroll(function() {
+						if ($(window).scrollTop() > 100) {
+							$("#goTop").fadeIn(1500);
+						} else {
+							$("#goTop").fadeOut(1500);
+						}
+					});
+					$("#goTop").click(function() {
+						$('body,html').animate({
+							scrollTop: 0
+						}, 1000);
+						return false;
+					});
+				});
+			});
+		</script>	<!--置顶-->
+		
+		<script>
+			$( "span.menu" ).click(function() {
+				$( ".header-menu" ).slideToggle( "slow", function() {
+				});
+			});
+		</script>	<!--导航隐藏点击显示-->
+
+	</body>
+
+</html>
